@@ -1,0 +1,198 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "Hello", "Good day", "What's up", "Howdy",
+        "Hi there", "Hey there", "Greetings", "Good morning", "Good afternoon", "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hey there! What can I do for you?",
+        "Hi! Welcome. How can I assist you?",
+        "Hello! Great to see you. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Quit", "Exit",
+        "See ya", "Take care", "Catch you later", "I'm done", "That's all"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to come back anytime.",
+        "Farewell! It was nice chatting with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thanks a lot",
+        "Thank you so much", "Much appreciated", "Cheers", "Great help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?", "What are you?", "What can you do?",
+        "Tell me about yourself", "What is your purpose?",
+        "What do you do?", "Are you a bot?", "Are you human?"
+      ],
+      "responses": [
+        "I'm an AI chatbot built with Python, NLTK, and deep learning. I can answer questions about data science, machine learning, and cryptocurrency!",
+        "I'm a personalized AI assistant trained to help with data science and crypto topics.",
+        "I'm a chatbot powered by NLP and deep learning. Ask me anything about data science or crypto!"
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science?", "Explain data science", "Tell me about data science",
+        "What does a data scientist do?", "What is data analysis?",
+        "How to learn data science?", "Data science basics"
+      ],
+      "responses": [
+        "Data science is a multidisciplinary field that uses statistics, machine learning, and programming to extract insights from data.",
+        "Data science involves collecting, cleaning, analyzing, and visualizing data to make informed decisions. Key tools include Python, SQL, and machine learning.",
+        "A data scientist collects and processes data, builds predictive models, and communicates insights to help businesses make better decisions."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?", "Explain machine learning", "Tell me about ML",
+        "What are ML algorithms?", "Types of machine learning",
+        "Supervised vs unsupervised learning", "What is deep learning?"
+      ],
+      "responses": [
+        "Machine learning is a subset of AI where systems learn from data to make predictions without being explicitly programmed.",
+        "There are 3 main types of machine learning: Supervised Learning (labeled data), Unsupervised Learning (unlabeled data), and Reinforcement Learning (reward-based).",
+        "Deep learning is a subset of machine learning that uses neural networks with many layers to learn complex patterns in data."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?", "Why use Python?", "Python for data science",
+        "Python libraries", "What are popular Python libraries?",
+        "Best Python libraries for data science", "Pandas vs NumPy"
+      ],
+      "responses": [
+        "Python is the most popular programming language for data science due to its simplicity and powerful libraries like Pandas, NumPy, Scikit-learn, and TensorFlow.",
+        "Key Python libraries for data science: Pandas (data manipulation), NumPy (numerical computing), Matplotlib/Seaborn (visualization), Scikit-learn (ML), TensorFlow/Keras (deep learning).",
+        "Python is widely used in data science, machine learning, web development, and automation. It's beginner-friendly and has a huge community."
+      ]
+    },
+    {
+      "tag": "cryptocurrency",
+      "patterns": [
+        "What is cryptocurrency?", "Explain crypto", "Tell me about Bitcoin",
+        "What is Bitcoin?", "What is Ethereum?", "How does crypto work?",
+        "Is crypto a good investment?", "What is blockchain?"
+      ],
+      "responses": [
+        "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates on decentralized blockchain networks.",
+        "Bitcoin is the first and most popular cryptocurrency, created in 2009 by Satoshi Nakamoto. It operates on a decentralized blockchain.",
+        "Blockchain is a distributed ledger technology that records transactions across many computers securely and transparently — the backbone of cryptocurrency."
+      ]
+    },
+    {
+      "tag": "crypto_price",
+      "patterns": [
+        "What is the price of Bitcoin?", "BTC price", "Bitcoin price today",
+        "Crypto market today", "How is the market doing?",
+        "What is the price of Ethereum?", "ETH price"
+      ],
+      "responses": [
+        "I don't have real-time data, but you can check live crypto prices on CoinGecko, Binance, or CoinMarketCap.",
+        "For live cryptocurrency prices, I recommend checking CoinGecko.com or Binance.com for the most up-to-date information.",
+        "I'm not connected to live market data. Please visit CoinMarketCap or Yahoo Finance for current crypto prices."
+      ]
+    },
+    {
+      "tag": "time_series",
+      "patterns": [
+        "What is time series?", "Explain time series analysis",
+        "What is ARIMA?", "What is LSTM?", "What is Prophet?",
+        "How to forecast prices?", "Time series forecasting"
+      ],
+      "responses": [
+        "Time series analysis studies data points collected over time to identify trends, patterns, and make future predictions.",
+        "ARIMA (AutoRegressive Integrated Moving Average) is a classic statistical model for time series forecasting. It works well for linear trends.",
+        "LSTM (Long Short-Term Memory) is a type of recurrent neural network great for sequential data like stock prices. Prophet is Facebook's forecasting tool that handles seasonality well."
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "What is NLP?", "What is natural language processing?",
+        "How does NLP work?", "NLP applications", "What is tokenization?",
+        "What is sentiment analysis?", "NLP in chatbots"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and generate human language.",
+        "NLP powers many applications: chatbots, voice assistants, sentiment analysis, language translation, and spam detection.",
+        "Tokenization is the process of splitting text into individual words or sentences. It's one of the first steps in NLP processing."
+      ]
+    },
+    {
+      "tag": "neural_network",
+      "patterns": [
+        "What is a neural network?", "How do neural networks work?",
+        "What is an artificial neuron?", "What is backpropagation?",
+        "Explain CNN", "Explain RNN", "What is activation function?"
+      ],
+      "responses": [
+        "A neural network is a computational model inspired by the human brain, consisting of layers of interconnected nodes (neurons) that learn patterns from data.",
+        "Neural networks learn through backpropagation — adjusting weights based on the error between predicted and actual outputs.",
+        "Activation functions like ReLU, Sigmoid, and Tanh introduce non-linearity into neural networks, helping them learn complex patterns."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "Tell me about your internship", "What did you learn?",
+        "What projects did you build?", "Amdox internship",
+        "Data analytics internship", "What skills did you gain?"
+      ],
+      "responses": [
+        "During the Amdox Data Analytics internship, I worked on Time Series Analysis with Cryptocurrency, a Dynamic AI Chatbot, and Customer Churn Prediction.",
+        "I gained hands-on experience in Python, machine learning, NLP, deep learning, and data visualization during the Amdox internship.",
+        "The internship covered data science fundamentals including ARIMA, LSTM, Prophet forecasting, NLP-based chatbots, and customer analytics."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke", "Say something funny", "Make me laugh",
+        "Do you have a sense of humor?", "Are you funny?"
+      ],
+      "responses": [
+        "Why do data scientists prefer dark mode? Because light attracts bugs! 😄",
+        "Why did the neural network break up with the dataset? Because it had too many layers! 😂",
+        "I told a joke about data once... it had too many outliers. 😄"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "I need help", "What can you answer?",
+        "What topics do you know?", "What can I ask you?",
+        "Guide me", "Show me what you can do"
+      ],
+      "responses": [
+        "I can help with: Data Science, Machine Learning, Python, NLP, Neural Networks, Cryptocurrency, Time Series Analysis, and general conversation!",
+        "Ask me about: data science concepts, machine learning algorithms, Python libraries, crypto basics, or just say hello!",
+        "Topics I cover: data science, ML, deep learning, NLP, cryptocurrency, time series, and more. Just ask!"
+      ]
+    }
+  ]
+}
