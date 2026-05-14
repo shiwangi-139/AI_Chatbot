@@ -85,7 +85,7 @@ def chatbot_response(text):
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="centered")
 
 st.title("🤖 Dynamic AI Chatbot")
-st.caption("Powered by Python · NLTK · Machine Learning | Amdox Internship Project")
+st.caption("Powered by Python · NLTK · Machine Learning ")
 st.markdown("---")
 
 if "messages" not in st.session_state:
